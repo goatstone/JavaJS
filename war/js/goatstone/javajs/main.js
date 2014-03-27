@@ -8,6 +8,11 @@ $(document).ready(function () {
 
             e.stopPropagation();
 
+            ////// BYPASS client side validation here
+//            submitForm();
+//            return true;
+            //////////
+
             errorMsg = "";
 
             var emailStr = $(this).parent().find("[name=email]").val();
@@ -36,7 +41,7 @@ function submitForm() {
 
     $.ajax({
         url: "form_data",
-        context: "{\"a\":1}",
+        data: $("#login_form").serialize(),
         type:"post"
     }).done(function(data) {
         console.log("done");

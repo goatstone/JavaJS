@@ -26,7 +26,7 @@ public class JavaJS {
 
     public JavaJS() {
 
-        runNashorn();
+//        runNashorn();
 
         Server server = new Server();
         HandlerList handlers = new HandlerList();
