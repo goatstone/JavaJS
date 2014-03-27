@@ -8,7 +8,7 @@ function Validator(){
 }
 
 Validator.prototype.max = 200;
-Validator.prototype.min = 0;
+Validator.prototype.min = 2;
 
 Validator.prototype.isEmail = function (possibleEmail){
     return /.+@.+/.test(possibleEmail);

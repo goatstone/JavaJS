@@ -60,39 +60,6 @@ public class JavaJS {
         } catch (Exception e) {
             e.printStackTrace();
         }
-//
-//        nashorn = m.getEngineByName("Nashorn");
-//        try {
-//            nashorn.eval("print('Hello, world')");
-//        } catch (ScriptException e) {
-//        }
-//
-//        try {
-//            String possibleEmail = "val@Email";
-//            Invocable invocable = (Invocable) nashorn;
-//
-//            Object validatorScript = nashorn.eval(new FileReader("war/js/goatstone/forms/Validator.js"));
-//            Object val = nashorn.eval("val");
-//
-//            Object valEmail = invocable.invokeMethod(val, "isEmail", possibleEmail);
-//            Object isUnderMax = invocable.invokeMethod(val, "isUnderMax", 5);
-//            Object isOverMin = invocable.invokeMethod(val, "isOverMin", 1);
-//
-////            Object controllerScript = nashorn.eval(new FileReader("js/goatstone/hello8/main.js"));
-//
-//
-//            System.out.println("- - - - ");
-//            System.out.println(valEmail);
-////            System.out.println(isUnderMax);
-////            System.out.println(isOverMin);
-//
-//        } catch (NoSuchMethodException e) {
-//            e.printStackTrace();
-//        } catch (ScriptException e) {
-//            e.printStackTrace();
-//        } catch (FileNotFoundException e) {
-//            e.printStackTrace();
-//        }
 
     }
 
